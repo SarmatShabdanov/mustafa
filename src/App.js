@@ -2,8 +2,8 @@ import { Button } from "./components/Button"
 function App() {
   return(
     <div>
-      <Button variant = "bordered">Halal Boy</Button> 
-      <Button>Haram Boy</Button> 
+      <Button size = "lg" variant ="primary" >Halal Boy</Button> 
+      <Button variant = "bordered">Haram Boy</Button> 
     </div>
   )
 }
