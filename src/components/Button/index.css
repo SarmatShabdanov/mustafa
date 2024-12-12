@@ -4,7 +4,7 @@
 
 .my-button{
     border-radius: 8px;
-   cursor: pointer;
+    cursor: pointer;
     height: 50px;
     font-size: 10px;
     font-family: "Inter";
@@ -12,6 +12,7 @@
     transition: 400ms;
     border: none;
     padding: 10px;
+    max-width: fit-content;
     
 }
 .my-button:hover{
@@ -51,3 +52,5 @@
     font-size: 12px;
     min-width: 100px;
 }
+
+
