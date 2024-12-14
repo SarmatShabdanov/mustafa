@@ -5,6 +5,7 @@ import { Input } from "./components/Input"
 import { Typography } from "./components/Typography"
 import { Heading } from "./components/Heading"
 import { Tooltip } from "./components/Tooltip"
+import { Accordion } from "./components/Accordion"
 function App() {
   
   return(
@@ -47,6 +48,11 @@ independent user account. For questions, contact us. </Typography>
         <Tooltip position="left">Left</Tooltip>
         <Tooltip position="right">Right</Tooltip>
         <Tooltip position="bottom">Bottom</Tooltip>
+        <Accordion  title = "Accordion" initiallyOpen> Lorem Impus</Accordion>
+
+        
+            
+        
     </div>
   )
 }
